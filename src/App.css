@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "wght";
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+:root {
+  --blue-white: #ecf2ff;
+  font-family: "wght";
+}
+
+body {
+  background-color: var(--blue-white);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
